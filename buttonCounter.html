@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div> 
+        <button type="button" onclick="add()">Add</button>
+        <button type="button" onclick="sub()">Subtract</button>
+        <button type="button" onclick="reset()">Reset</button>
+        <p id="counter">0<p>
+    </div>
+
+<script>
+
+let count  = 0;
+
+function add() {
+  count ++
+  console.log(count)
+  document.getElementById("counter").innerHTML = count;
+}
+
+
+function sub() {
+  count --
+  console.log(count)
+  document.getElementById("counter").innerHTML = count;
+}
+
+
+function reset() {
+  count = 0;
+  console.log(count)
+  document.getElementById("counter").innerHTML = count;
+}
+</script>
+
+</body>
+</html>
