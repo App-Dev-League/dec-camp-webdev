@@ -1,0 +1,49 @@
+.header h2{
+    font-size: 35px;
+}
+.header p{
+    color: rgb(107, 107, 107);
+    font-size: 25px;
+}
+.name  {
+    margin-left: 5%;
+}
+.header img {
+    width: 350px;
+    height: auto;
+    margin-left: 20%;
+    margin-top: -6%;
+}
+.background {
+    width: 500px;
+    height: 750px;
+    float: right;
+    margin-right: 10%;
+}
+
+.bio{
+    margin-left: 5%;
+    display: inline-block;
+}
+.bio h2{
+    font-size: 35px;
+}
+
+.bio p{
+    max-width: 250px;
+}
+
+.hobbies{
+    margin-left: 5%;
+    display: inline-block;
+}
+.hobbies h2{
+    font-size: 35px;
+}
+
+.hobbies p{
+    max-width: 250px;
+}
+
+
+
